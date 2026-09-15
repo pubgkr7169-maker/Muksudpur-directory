@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "directory": {
+    "listings": [
+      {
+        "id": "emergency-999",
+        "name": "National Emergency Service",
+        "bn": "জাতীয় জরুরি সেবা",
+        "category": "police",
+        "number": "999",
+        "description": "Police, fire and ambulance assistance. Free, 24 hours.",
+        "descriptionBn": "পুলিশ, ফায়ার সার্ভিস ও অ্যাম্বুলেন্স সহায়তা। বিনামূল্যে, ২৪ ঘণ্টা।",
+        "source": "https://telecom-police.portal.gov.bd/pages/static-pages/695e3b0cc4774958d7b72321",
+        "pinned": true,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "fire-102",
+        "name": "Fire Service & Civil Defence",
+        "bn": "ফায়ার সার্ভিস ও সিভিল ডিফেন্স",
+        "category": "fire",
+        "number": "102",
+        "description": "National fire and rescue emergency hotline.",
+        "descriptionBn": "অগ্নিকাণ্ড ও উদ্ধার সহায়তার জাতীয় হটলাইন।",
+        "source": "https://fireservice.gov.bd/pages/static-pages/6922dfa7933eb65569e23441",
+        "pinned": true,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "information-333",
+        "name": "Government Information Service",
+        "bn": "সরকারি তথ্য ও সেবা",
+        "category": "government",
+        "number": "333",
+        "description": "Information about government services.",
+        "descriptionBn": "সরকারি সেবার তথ্য ও সহায়তা।",
+        "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
+        "pinned": true,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "child-1098",
+        "name": "Child Helpline",
+        "bn": "শিশু সহায়তা",
+        "category": "government",
+        "number": "1098",
+        "description": "Support and assistance for children.",
+        "descriptionBn": "শিশুদের জন্য সহায়তা ও পরামর্শ।",
+        "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
+        "pinned": false,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "women-109",
+        "name": "Women & Children Helpline",
+        "bn": "নারী ও শিশু সহায়তা",
+        "category": "government",
+        "number": "109",
+        "description": "Help for women and children facing violence.",
+        "descriptionBn": "নির্যাতনের শিকার নারী ও শিশুদের সহায়তা।",
+        "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
+        "pinned": false,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "nid-105",
+        "name": "National ID Information",
+        "bn": "জাতীয় পরিচয়পত্র তথ্য",
+        "category": "government",
+        "number": "105",
+        "description": "National identity card information and assistance.",
+        "descriptionBn": "জাতীয় পরিচয়পত্র সংক্রান্ত তথ্য ও সহায়তা।",
+        "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
+        "pinned": false,
+        "location": "nationwide",
+        "sample": false,
+        "verified": true,
+        "verifiedAt": "2026-09-08",
+        "logo": ""
+      },
+      {
+        "id": "sample-0",
+        "name": "Muksudpur Community Ambulance",
+        "bn": "Muksudpur Community Ambulance",
+        "category": "ambulance",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-1",
+        "name": "Muksudpur Community Hospital",
+        "bn": "Muksudpur Community Hospital",
+        "category": "hospital",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-2",
+        "name": "Muksudpur Blood Donor Network",
+        "bn": "Muksudpur Blood Donor Network",
+        "category": "blood",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-3",
+        "name": "Muksudpur Broadband Support",
+        "bn": "Muksudpur Broadband Support",
+        "category": "isp",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-4",
+        "name": "Muksudpur Electricity Support",
+        "bn": "Muksudpur Electricity Support",
+        "category": "electricity",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-5",
+        "name": "Muksudpur Gas Support",
+        "bn": "Muksudpur Gas Support",
+        "category": "gas",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-6",
+        "name": "Muksudpur Water Support",
+        "bn": "Muksudpur Water Support",
+        "category": "water",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-7",
+        "name": "Muksudpur Transport Desk",
+        "bn": "Muksudpur Transport Desk",
+        "category": "transport",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-8",
+        "name": "Muksudpur Bank Customer Care",
+        "bn": "Muksudpur Bank Customer Care",
+        "category": "bank",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      },
+      {
+        "id": "sample-9",
+        "name": "Muksudpur Mobile Service Point",
+        "bn": "Muksudpur Mobile Service Point",
+        "category": "mobile",
+        "location": "muksudpur",
+        "number": "01XXX-XXXXXX",
+        "description": "Sample contact for Muksudpur. A real number has not been added yet.",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "pinned": false,
+        "logo": ""
+      }
+    ],
+    "categories": [
+      {
+        "id": "ambulance",
+        "name": "Ambulance",
+        "bn": "অ্যাম্বুলেন্স",
+        "icon": "ambulance"
+      },
+      {
+        "id": "fire",
+        "name": "Fire service",
+        "bn": "ফায়ার সার্ভিস",
+        "icon": "flame"
+      },
+      {
+        "id": "police",
+        "name": "Police & emergency",
+        "bn": "পুলিশ ও জরুরি সেবা",
+        "icon": "shield"
+      },
+      {
+        "id": "hospital",
+        "name": "Hospitals",
+        "bn": "হাসপাতাল",
+        "icon": "hospital"
+      },
+      {
+        "id": "blood",
+        "name": "Blood banks",
+        "bn": "ব্লাড ব্যাংক",
+        "icon": "blood"
+      },
+      {
+        "id": "isp",
+        "name": "Internet / ISP",
+        "bn": "ইন্টারনেট / আইএসপি",
+        "icon": "wifi"
+      },
+      {
+        "id": "electricity",
+        "name": "Electricity",
+        "bn": "বিদ্যুৎ",
+        "icon": "zap"
+      },
+      {
+        "id": "gas",
+        "name": "Gas",
+        "bn": "গ্যাস",
+        "icon": "flame"
+      },
+      {
+        "id": "water",
+        "name": "Water",
+        "bn": "পানি",
+        "icon": "water"
+      },
+      {
+        "id": "transport",
+        "name": "Transport",
+        "bn": "পরিবহন",
+        "icon": "bus"
+      },
+      {
+        "id": "bank",
+        "name": "Banks",
+        "bn": "ব্যাংক",
+        "icon": "bank"
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile operators",
+        "bn": "মোবাইল অপারেটর",
+        "icon": "mobile"
+      },
+      {
+        "id": "government",
+        "name": "Government",
+        "bn": "সরকারি সেবা",
+        "icon": "building"
+      }
+    ],
+    "locations": [
+      {
+        "id": "nationwide",
+        "name": "National helpline",
+        "bn": "National helpline"
+      },
+      {
+        "id": "muksudpur",
+        "name": "Muksudpur",
+        "bn": "Muksudpur"
+      }
+    ],
+    "revision": 2
+  },
+  "posts": [],
+  "private": "0DSkUriioLc/2BZ5KbuJLdwvX2VsO6N94msPBcMER4tPy2yT2A1UdrHgV2sMkB80G6QeudbJV9QKcxudlckG53erYeW7k8tOifJh90kC2ZQ4bHUductEdpbzOG8x6m7KS/dXyHQbH5LtfxYkqveJa4cshywo9Tq3ra4/YLLSG8hWbRHa5a9FZzPa99w65FxrnI3zs/EoXmnKGcnyVj0bbMvSP76JJG9HnoILz+aAnWatpDv+1n0Jk0tCn1qGyGaJQsBrO/MJJo9JJgZfzsMSav/FELtr5MtMQj/u9r5YgkgPA/L+yRqyBq3TBwCZUIfLSmvTkgpifrWKyG5LcrmEwKpjTgCg54OgFS3qCyrzFuEMSyoOjCBDdKQazoU5+1WSRam5FbpniZt5Gbn85nylONA30K3ChWfjQkE9mAytvsQFwnksbX6ORfHz/NblfL6tyxqrKwmVqiXY/kTtJ1lSxcTip+VRDQ66mUDu2MW5jE0fNCR4aoy1HisNTCoYA1k26W8nzZacIxfixzhTsNUtUgeU27Pagmu4K09h412bKkFU1shIAAs+NfYizAbnupxjXPQ7Wh6Zq4R2VhcI6rQ6dyGZD4JMw8VlYTwoUC1oNrKUdFQ1lksF6xyUJ8rfzgOryb9xx4KWkUv9s3mB1CKA7ZyZgEYkYBLhlsQ4RJcDiyP0SX8TEwzo9mnYQ2kT7TltOETsiA7xWomaT5ZQdFgfpGkH+4j91laHJvxgFkg="
+}

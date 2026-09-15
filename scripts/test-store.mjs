@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import ts from 'typescript';
+mkdirSync('work/tests',{recursive:true});
+writeFileSync('work/tests/store.mjs',ts.transpileModule(readFileSync('lib/store.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
+process.env.DATA_SECRET='a'.repeat(64);process.env.STORAGE_MODE='github';process.env.GITHUB_TOKEN='mock-test-token';process.env.GITHUB_REPOSITORY='test/repo';
+let disk=JSON.parse(readFileSync('data/directory.json','utf8'));disk.private=null;disk.posts=[];let sha=1,conflict=true,writes=0;
+globalThis.fetch=async(url,options)=>{assert(String(url).startsWith('https://api.github.com/repos/test/repo/contents/data/directory.json'));assert.equal(options.headers.Authorization,'Bearer mock-test-token');if(options.method==='GET')return Response.json({sha:String(sha),encoding:'base64',content:Buffer.from(JSON.stringify(disk)).toString('base64')});writes++;const input=JSON.parse(options.body);if(conflict){conflict=false;disk.posts.push({id:'other',message:'Another concurrent post',number:'',createdAt:'2026-09-15T00:00:00.000Z'});sha++;return Response.json({}, {status:409})}if(input.sha!==String(sha))return Response.json({}, {status:409});disk=JSON.parse(Buffer.from(input.content,'base64').toString('utf8'));sha++;return Response.json({content:{sha:String(sha)}})};
+const {mutate,readState,consumeLimit}=await import('../work/tests/store.mjs');
+await mutate(s=>{s.posts.push({id:'ours',message:'Our new post',number:'',createdAt:'2026-09-15T00:00:01.000Z'});s.private.reports.push({id:'private',details:'Sensitive test report'})});
+assert.equal(writes,2);assert.deepEqual(disk.posts.map(p=>p.id),['other','ours']);assert(!JSON.stringify(disk).includes('Sensitive test report'));assert.equal((await readState()).private.reports[0].details,'Sensitive test report');
+await Promise.all(Array.from({length:5},()=>mutate(s=>{s.directory.revision++})));const revision=(await readState()).directory.revision;
+await assert.rejects(mutate(()=>{throw Error('Cancelled')}));assert.equal((await readState()).directory.revision,revision);
+await mutate(s=>consumeLimit(s,'test',1,Date.now()+60000));await assert.rejects(mutate(s=>consumeLimit(s,'test',1,Date.now()+60000)),e=>e.status===429);
+process.env.DATA_SECRET='b'.repeat(64);await assert.rejects(readState);process.env.DATA_SECRET='a'.repeat(64);
+globalThis.fetch=async()=>Response.json({}, {status:403});await assert.rejects(readState);await assert.rejects(mutate(s=>{s.directory.revision++}));
+process.env.STORAGE_MODE='local';process.env.VERCEL='1';await assert.rejects(readState,/requires GitHub/);
+console.log('GitHub adapter checks passed: conflict retry, concurrent write preservation, encrypted reports, rejected writes, durable limits, bad secret, remote failure, Vercel filesystem guard.');
