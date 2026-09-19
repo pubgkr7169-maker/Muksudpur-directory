@@ -5,11 +5,11 @@
       {
         "id": "emergency-999",
         "name": "National Emergency Service",
-        "bn": "জাতীয় জরুরি সেবা",
+        "bn": "National Emergency Service",
         "category": "police",
         "number": "999",
         "description": "Police, fire and ambulance assistance. Free, 24 hours.",
-        "descriptionBn": "পুলিশ, ফায়ার সার্ভিস ও অ্যাম্বুলেন্স সহায়তা। বিনামূল্যে, ২৪ ঘণ্টা।",
+        "descriptionBn": "Police, fire and ambulance assistance. Free, 24 hours.",
         "source": "https://telecom-police.portal.gov.bd/pages/static-pages/695e3b0cc4774958d7b72321",
         "pinned": true,
         "location": "nationwide",
@@ -21,11 +21,11 @@
       {
         "id": "fire-102",
         "name": "Fire Service & Civil Defence",
-        "bn": "ফায়ার সার্ভিস ও সিভিল ডিফেন্স",
+        "bn": "Fire Service & Civil Defence",
         "category": "fire",
         "number": "102",
         "description": "National fire and rescue emergency hotline.",
-        "descriptionBn": "অগ্নিকাণ্ড ও উদ্ধার সহায়তার জাতীয় হটলাইন।",
+        "descriptionBn": "National fire and rescue emergency hotline.",
         "source": "https://fireservice.gov.bd/pages/static-pages/6922dfa7933eb65569e23441",
         "pinned": true,
         "location": "nationwide",
@@ -37,11 +37,11 @@
       {
         "id": "information-333",
         "name": "Government Information Service",
-        "bn": "সরকারি তথ্য ও সেবা",
+        "bn": "Government Information Service",
         "category": "government",
         "number": "333",
         "description": "Information about government services.",
-        "descriptionBn": "সরকারি সেবার তথ্য ও সহায়তা।",
+        "descriptionBn": "Information about government services.",
         "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
         "pinned": true,
         "location": "nationwide",
@@ -53,11 +53,11 @@
       {
         "id": "child-1098",
         "name": "Child Helpline",
-        "bn": "শিশু সহায়তা",
+        "bn": "Child Helpline",
         "category": "government",
         "number": "1098",
         "description": "Support and assistance for children.",
-        "descriptionBn": "শিশুদের জন্য সহায়তা ও পরামর্শ।",
+        "descriptionBn": "Support and assistance for children.",
         "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
         "pinned": false,
         "location": "nationwide",
@@ -69,11 +69,11 @@
       {
         "id": "women-109",
         "name": "Women & Children Helpline",
-        "bn": "নারী ও শিশু সহায়তা",
+        "bn": "Women & Children Helpline",
         "category": "government",
         "number": "109",
         "description": "Help for women and children facing violence.",
-        "descriptionBn": "নির্যাতনের শিকার নারী ও শিশুদের সহায়তা।",
+        "descriptionBn": "Help for women and children facing violence.",
         "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
         "pinned": false,
         "location": "nationwide",
@@ -85,11 +85,11 @@
       {
         "id": "nid-105",
         "name": "National ID Information",
-        "bn": "জাতীয় পরিচয়পত্র তথ্য",
+        "bn": "National ID Information",
         "category": "government",
         "number": "105",
         "description": "National identity card information and assistance.",
-        "descriptionBn": "জাতীয় পরিচয়পত্র সংক্রান্ত তথ্য ও সহায়তা।",
+        "descriptionBn": "National identity card information and assistance.",
         "source": "https://police.portal.gov.bd/pages/static-pages/6922dcc4933eb65569e11ed9",
         "pinned": false,
         "location": "nationwide",
@@ -106,7 +106,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -122,7 +122,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -138,7 +138,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -154,7 +154,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -170,7 +170,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -186,7 +186,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -202,7 +202,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -218,7 +218,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -234,7 +234,7 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
@@ -250,92 +250,108 @@
         "location": "muksudpur",
         "number": "01XXX-XXXXXX",
         "description": "Sample contact for Muksudpur. A real number has not been added yet.",
-        "descriptionBn": "",
+        "descriptionBn": "Sample contact for Muksudpur. A real number has not been added yet.",
         "sample": true,
         "verified": false,
         "verifiedAt": "",
         "source": "",
         "pinned": false,
         "logo": ""
+      },
+      {
+        "id": "contact-40cb28bc-daad-41e1-ad08-e46c413f9dc4",
+        "name": "Ayon",
+        "bn": "Ayon",
+        "category": "ambulance",
+        "location": "nationwide",
+        "number": "0173606869",
+        "description": "",
+        "descriptionBn": "",
+        "sample": true,
+        "verified": false,
+        "verifiedAt": "",
+        "source": "",
+        "logo": "",
+        "pinned": false
       }
     ],
     "categories": [
       {
         "id": "ambulance",
         "name": "Ambulance",
-        "bn": "অ্যাম্বুলেন্স",
+        "bn": "Ambulance",
         "icon": "ambulance"
       },
       {
         "id": "fire",
         "name": "Fire service",
-        "bn": "ফায়ার সার্ভিস",
+        "bn": "Fire service",
         "icon": "flame"
       },
       {
         "id": "police",
         "name": "Police & emergency",
-        "bn": "পুলিশ ও জরুরি সেবা",
+        "bn": "Police & emergency",
         "icon": "shield"
       },
       {
         "id": "hospital",
         "name": "Hospitals",
-        "bn": "হাসপাতাল",
+        "bn": "Hospitals",
         "icon": "hospital"
       },
       {
         "id": "blood",
         "name": "Blood banks",
-        "bn": "ব্লাড ব্যাংক",
+        "bn": "Blood banks",
         "icon": "blood"
       },
       {
         "id": "isp",
         "name": "Internet / ISP",
-        "bn": "ইন্টারনেট / আইএসপি",
+        "bn": "Internet / ISP",
         "icon": "wifi"
       },
       {
         "id": "electricity",
         "name": "Electricity",
-        "bn": "বিদ্যুৎ",
+        "bn": "Electricity",
         "icon": "zap"
       },
       {
         "id": "gas",
         "name": "Gas",
-        "bn": "গ্যাস",
+        "bn": "Gas",
         "icon": "flame"
       },
       {
         "id": "water",
         "name": "Water",
-        "bn": "পানি",
+        "bn": "Water",
         "icon": "water"
       },
       {
         "id": "transport",
         "name": "Transport",
-        "bn": "পরিবহন",
+        "bn": "Transport",
         "icon": "bus"
       },
       {
         "id": "bank",
         "name": "Banks",
-        "bn": "ব্যাংক",
+        "bn": "Banks",
         "icon": "bank"
       },
       {
         "id": "mobile",
         "name": "Mobile operators",
-        "bn": "মোবাইল অপারেটর",
+        "bn": "Mobile operators",
         "icon": "mobile"
       },
       {
         "id": "government",
         "name": "Government",
-        "bn": "সরকারি সেবা",
+        "bn": "Government",
         "icon": "building"
       }
     ],
@@ -351,8 +367,8 @@
         "bn": "Muksudpur"
       }
     ],
-    "revision": 2
+    "revision": 3
   },
   "posts": [],
-  "private": "Vbq58CThPBOiDrcloqS/nQQjb5JTqO6ri8BjyP4+En/kanC0Vp+mY+Oi63d+aR3jyiVfecfdU89eL7qQDRBAE5x9YDghDAZmx2+9cvVQjJm7BSwY9EN5a6aR/kXI/n5bZTyKWRVjRpe/jTA3Dgoi9c388WQVJwL0eUeQDOM8VC1JiFssLtXcxOqH85j7D+PSON3kkfMi69g3CMAHHThGzv/EQXEb3JLNKiU1meQfBuA19mB8euztkIRvUbRUe/bU76fSTOnRNSuVPg70jD83quQW53t8Vf1KaPKPSN6mZ9nRdZZY7+LhlkmQxbZIZb/S9+dScU/W85WBbmspWaug9Mr4TuygfXx2BbN3Ajxr/oS0jS1xzHE50IOj3442+jCPJtMCL4Cb9WqVZ7dnad7PNv/GNvutNX+skSV4kYTMviSeqX5Oo92VNsd2128Fv6vv+dXU8zdhyOm2a8nij+XCq0G+HFe5fOe8svD7iUtdfeHM30r3OK+eQieb8xpe88TL2hiEQ19OKcoMWw6FqCHp28ZwCgKS1XQI6mQ58hYNwKzgBWQLmstJ0z7WWNY5saW96hiovjObWt+Ymzo2j+UptIdAoA3MeyKn9IqnuSvgAfUtwRaZhB/Q4G7A0rZlxmzADyzsfhFWHqAjHU1ZbV2WkqExFlcKOb6XPDAO7cLGWS9ZOA8uTPQq7gbp1uhzY2y5YJJSSISpMqA3Q63wAhMLquA+FwoldMzhxtaYQgXzqVrLvhsTzf25/4UR7nV3AObw+5qTp+y8+e58Z/cQwhpNroBYuqZHjCKYkFI8Se6vpq6fYmL8dkVtUZusgoxilwudezC+DIkfwuqXa5kGZ3bIZd6N0qCP+F0x7rKQFSRIhXHq4KfnjJ2qkMnYNtAXCLIYjjaE5qb54sYbztj+mxnXoPcXhOGyz4S6M9Gtgv6M1BBVzPe7/j99viWXxWguPW+25EEL/5krdFd9QxaoIeh/DQ3YiA=="
+  "private": "4+QnmdGvtMQZoqv09Mq1MX8zIlst7opmiNkKqKB6kX3zQ108Zor6QG45zNTTLwnvULB2lOIbrZbyOEtck2UxX2TtIKf4xf2QYUIBfQZ7dY8OVNxcwl5S6Q9zJhvJxeo4WP8Wa8bbtC8hzCZse5Qr2wj5jYaj3gXXJ7gJ01e/qCUYKvAX06wVeKtfRUeuRWF0NDVLiyZH7+q4oyIf9d74cHTuf0ufoJqRzTusYyzyZoTeYyH4D7Ee/2IzIOLQ5LPT9vBzr4jPxk1i8VwEqbGxmwY7KyuSGXH1koPhBxEDBLF+gJSoGGF5zWfajxqt+DfgoFLtDTvH2hu8B71ZgCU0wRvcsGx+jAn2Wxs140V4Q0OjlRut8UW7YR4eBwRLm6XcjmFanlEt0G+fzKv898KghHDGyu6iS5uw3gtr4D+NF1dtsoXu4IjhytxfC2o1nvVHirV348/aQ77RLt/U4vE/4h7H4B+zp1ZhIVG1U1gpYjPL7iwHnxPhg8noVDv6kEFWED8l4tPgwO2UIRrLKxXJbWnwliyO6zraLlNuAxHrvvukS3Fw7kThTx3InxqyoTwi638dYNIKU3fwYLxv6lYCaj8bH8rE7h+7mJ44iM0sKgeWjTR479dZg4Ni9fDlz/kJelnZOp1/eEBNcmHnUlcKZ+DDsPwSfDqku9PqIcPxhYIYDnbuLzTh3KIRWZsvr7CZRLaX6mSD1fKh5Vz5f4+Hm5x0mMyl3Y+sN87w3Bs7dAMZGjm02gbUi0eP2QmobUTWe4EbqIAJGOE4JlGj1v2dOW+ABFYw0WiIYsU2YBBzD3BZYLqgZsqbqVUmbGlqOpM6l+N/gj8hF+sdbU22/k4ObRRUF47XhrUTYvBl98IcUkGcMgnnRl5QeOQw2ZMGey1qPUDPBwqGnIVYbQ0qcuYgmjKcWotW9KqMz128IqnIIO8ocypmpy6Mhf7QwJhc0r1b3pc9ophziBiIYV01cHo6443/aA=="
 }
