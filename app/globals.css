@@ -293,3 +293,10 @@ p{color:var(--muted)}
 @media(max-width:1100px){.dial-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.dial-card h3{min-height:0}.dial-art{height:140px}}
 @media(max-width:560px){.dial-grid{gap:12px}.dial-heading{align-items:start;flex-direction:column;gap:5px}.dial-card{padding:16px 12px 14px;border-radius:13px}.dial-card h3{font-size:1.05rem;min-height:3em}.dial-art{height:auto;margin:6px auto 12px}.dial-description{font-size:.8125rem;margin-bottom:12px}.dial-actions{flex-direction:column;align-items:stretch;gap:8px}.dial-actions strong{font-size:1.3rem}.dial-actions a{padding:10px 8px;font-size:.9375rem}.dial-heading h2{font-size:1.5rem}}
 @media(max-width:359px){.dial-grid{grid-template-columns:1fr}.dial-card h3{min-height:0}.dial-art{height:128px}.dial-actions{flex-direction:row;align-items:center}}
+
+/* Real data-loading feedback; emergency calls stay available. */
+.directory-loading{display:flex;align-items:center;gap:14px;margin:22px 0;padding:16px 18px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink)}
+.directory-loading>div{display:flex;flex-direction:column;gap:3px;min-width:0}.directory-loading strong{font-size:1rem}.directory-loading div>span{font-size:.875rem;color:var(--muted);line-height:1.5}
+.directory-spinner{display:block;flex:0 0 28px;width:28px;height:28px;border:3px solid var(--line);border-top-color:var(--green);border-radius:50%;animation:directory-spin 1.1s linear infinite}
+@keyframes directory-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.directory-spinner{animation:none;border-color:var(--green);border-style:dotted}}
